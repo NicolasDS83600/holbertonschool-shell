@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -inw --color "bin" /etc/passwd
+grep -n --color "bin" /etc/passwd | wc -l
